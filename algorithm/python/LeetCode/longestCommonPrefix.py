@@ -10,4 +10,5 @@ for str in strs:
         prefix = prefix[0:len(prefix)-1]
         if len(prefix) == 0:
             print("")
+            exit()
 print(prefix)
